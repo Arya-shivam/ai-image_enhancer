@@ -39,8 +39,8 @@ Before you begin, ensure you have the following installed on your machine:
    git clone https://github.com/Arya-shivam/ai-image_enhancer.git
 
 2. **Install Dependencies**:
-  ```bash 
-    npm install
+    ```bash 
+      npm install
 
 3.**Start the development server**:
     ```bash 
