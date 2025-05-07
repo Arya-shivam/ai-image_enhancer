@@ -55,6 +55,7 @@ Wait for the AI to process the image (a loading spinner will be displayed).
 View the original and enhanced images side by side.
 
 ### Project Structure
+    ```bash
  app/
 ├── src/
 │   ├── components/
