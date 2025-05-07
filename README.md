@@ -42,7 +42,7 @@ Before you begin, ensure you have the following installed on your machine:
   ```bash 
     npm install
 
-3.**Start the development server**:
+3. ** Start the development server**:
     ```bash 
       npm run dev
 
