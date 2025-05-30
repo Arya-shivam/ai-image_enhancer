@@ -13,7 +13,7 @@ Home = () => {
 
 
     const UploadImageHandler = async (file) => {
-        setUploaded(URL.createObjectURL(file));
+        setUploaded(URL.createObjectURL(file)); // Create a local URL for the uploaded image
         setLoading(true);
 
         try {
@@ -26,7 +26,7 @@ Home = () => {
         }
     };
     
-    enhancedImage?.image? console.log(enhancedImage.image) : null;
+    enhancedImage?.image? console.log(enhancedImage.image) : null; // conditional rendering 
 
   return (
     <div>

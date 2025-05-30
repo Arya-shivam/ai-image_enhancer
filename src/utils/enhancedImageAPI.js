@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const BaseUrl = "https://techhk.aoscdn.com";
-const apiKey = 'wx8aopzyha130s6c3';
+const apiKey = '';
 
 const enhancedImageAPI = async (file) => {
     

@@ -18,7 +18,9 @@ const ImagePreview = (props) => {
         <div className='bg-white shadow-lg rounded-xl overflow-hidden '>
             <h2 className='bg-black text-white  text-center font-semibold text-xl'>Enhanced Image </h2>
 
-            {props.loading ? <Loading /> : props.enhancedImage ? <img src={props.enhancedImage} alt="previewImage" className='w-full h-full object-cover' /> : <div className='flex items-center justify-center h-screen max-h-60 bg-gray-600'>No Enhanced Image</div>}
+            {props.loading ? <Loading /> :
+             props.enhancedImage ? <img src={props.enhancedImage} alt="previewImage" className='w-full h-full object-cover' /> : 
+             <div className='flex items-center justify-center h-screen max-h-60 bg-gray-600'>No Enhanced Image</div>}
         </div>
     </div>
   )
